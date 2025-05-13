@@ -37,4 +37,4 @@ This will then create a CSV file that contains the image file paths, the types o
 
 ## Minimum configuration
 
-We used 1 NVIDIA A40 GPU with 45GB each to run this model.
+We used 1 NVIDIA A40 GPU with 45GB to run this model.
