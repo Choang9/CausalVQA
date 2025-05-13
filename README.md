@@ -4,7 +4,9 @@ This repository is the official implementation of CausalVQA: A Benchmark Exposin
 
 ## Getting Started
 
-Determine which VLM you want to use. Go to that VLM's directory and follow the steps in the README file there to set up the environment and run the scripts. Most directories contain these:
+Download our CausalVQA dataset [here](https://www.kaggle.com/datasets/choang19/causalvqa).
+
+Determine which VLM you want to experiment with. Go to that VLM's directory and follow the steps in the README file there to set up the environment and run the scripts. Most directories contain these:
 - yml file
 - Inference scripts (for baseline and fine-tuned models)
 - Fine-tuning script (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat)
@@ -18,7 +20,7 @@ Minimum configuration: We used 4 NVIDIA A40 GPUs with 45GB each to fine-tune the
 
 ## Evaluation
 
-Use the evaluation scripts in the Evaluation directory. More information can be found in the README file of this directory.
+Use the evaluation scripts in the Evaluation directory. We used Claude 3.5 Sonnet and GPT-4o as judges to evaluate the responses of these models. This requires **paid subscription** to use the APIs. More information can be found in the README file of this directory.
 
 ## Acknowledgment
 
