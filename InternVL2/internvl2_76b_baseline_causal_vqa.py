@@ -202,7 +202,9 @@ count = 1
 for index, row in df.iterrows():
     print("Row:", count)
 
-    image_path = row['file_name']
+    # TODO: Replace with actual path to your test/images directory here
+    path_to_test_images = "path/to/test/images"
+    image_path = path_to_test_images + row['file_name']
 
     image = Image.open(image_path).convert('RGB')
 
