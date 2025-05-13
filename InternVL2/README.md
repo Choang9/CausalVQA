@@ -36,4 +36,4 @@ We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
 
 ``python internvl2_76b_baseline_causal_vqa.py``
 
-This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and InternVL2's response to these questions. There will be two CSV files if you run both experiments A and B.
+This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and InternVL2's responses to these questions. There will be two CSV files if you run both experiments A and B.
