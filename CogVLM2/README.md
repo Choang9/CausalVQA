@@ -17,6 +17,7 @@ We used 1 NVIDIA A40 GPU with 45GB to run this model.
 ``cd CogVLM2``
 
 3. Download the ``cogvlm2.yml`` file and move it to the ``CogVLM2`` directory
+
 4. Create and activate the environment
 
 ``conda env create -f cogvlm2.yml``
