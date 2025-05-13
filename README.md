@@ -20,7 +20,9 @@ Minimum configuration: We used 4 NVIDIA A40 GPUs with 45GB each to fine-tune the
 
 ## Evaluation
 
-Use the evaluation scripts in the Evaluation directory. We used Claude 3.5 Sonnet and GPT-4o as judges to evaluate the responses of these models. This requires **paid subscriptions** to use the APIs. More information can be found in the README file of this directory.
+Use the evaluation scripts in the Evaluation directory. We used Claude 3.5 Sonnet and GPT-4o as judges to evaluate the responses of these models. 
+
+Warning: This requires **paid subscriptions** to use the APIs. More information can be found in the README file of this directory.
 
 ## Acknowledgment
 
