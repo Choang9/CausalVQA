@@ -16,7 +16,7 @@ Determine which VLM you want to experiment with. Go to that VLM's directory and 
 
 Use the fine-tuning script in each VLM's directory to do fine-tuning. More information can be found in the README file of each VLM's own directory.
 
-Minimum configuration: We used 4 NVIDIA A40 GPUs with 45GB each to fine-tune these models.
+Minimum configuration: We used at most 2 NVIDIA A40 GPUs with 45GB each to fine-tune these models.
 
 ## Evaluation
 
