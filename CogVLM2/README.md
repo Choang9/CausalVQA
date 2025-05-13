@@ -26,8 +26,8 @@ Follow the following steps to set up the enviromment and run the inference scrip
 2. Open the ``cogvlm2_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
 
 - Line 32: Determine whether you are running Experiment A or Experiment B
-- Line 45: Replace with actual path to your test/metadata.csv file
-- Line 101: Replace with actual path to your test/images directory
+- Line 45: Replace with actual path to your test/metadata.csv file (downloaded from our dataset)
+- Line 101: Replace with actual path to your test/images directory (downloaded from our dataset)
 
 3. Save the code, go to ``CogVLM2/basic_demo`` and run the code there
 
