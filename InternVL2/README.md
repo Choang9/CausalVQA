@@ -26,7 +26,7 @@ We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
 
 1. Download the ``internvl2_76b_baseline_causal_vqa.py`` script and move it to ``InternVL2``
 
-2. Open the ``internvl2_76b_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
+2. Open ``internvl2_76b_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
 
 - Line 138: Determine whether you are running Experiment A or Experiment B
 - Line 151: Replace with actual path to your test/metadata.csv file (downloaded from our dataset)
