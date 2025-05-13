@@ -28,7 +28,7 @@ We used 1 NVIDIA A40 GPU with 45GB to run this model.
 
 1. Download the ``cogvlm2_baseline_causal_vqa.py`` script and move it to ``CogVLM2/basic_demo``
 
-2. Open the ``cogvlm2_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
+2. Open ``cogvlm2_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
 
 - Line 32: Determine whether you are running Experiment A or Experiment B
 - Line 45: Replace with actual path to your test/metadata.csv file (downloaded from our dataset)
