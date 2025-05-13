@@ -2,6 +2,10 @@
 
 Follow the following steps to set up the enviromment and run the inference script for InternVL2. 
 
+## Minimum configuration
+
+We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
+
 ## Getting Started
 
 1. Create a dirctory and name it ``InternVL2``
@@ -32,7 +36,3 @@ Follow the following steps to set up the enviromment and run the inference scrip
 ``python internvl2_76b_baseline_causal_vqa.py``
 
 This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and InternVL2's response to these questions. There will be two CSV files if you run both experiments A and B.
-
-## Minimum configuration
-
-We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
