@@ -1,6 +1,6 @@
 # CogVLM2
 
-Follow the following steps to set up the enviromment and run the fine-tuning and inference scripts for CogVLM2. 
+Follow the following steps to set up the enviromment and run the inference script for CogVLM2. 
 
 ## Getting Started
 
