@@ -7,10 +7,11 @@ This repository is the official implementation of CausalVQA: A Benchmark Exposin
 Download our CausalVQA dataset [here](https://www.kaggle.com/datasets/choang19/causalvqa).
 
 Determine which VLM you want to experiment with. Go to that VLM's directory and follow the steps in the README file there to set up the environment and run the scripts. Most directories contain these:
-- yml file
+- A README file
+- A yml file
 - Inference scripts (for baseline and fine-tuned models)
 - Fine-tuning script (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat)
-- Fine-tuned version of the model (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat)
+- Fine-tuned version of the model (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat). This is typically a TXT file containing a Google Drive link for downloading the fine-tuned model.
 
 ## Fine-tuning
 
