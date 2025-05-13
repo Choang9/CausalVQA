@@ -10,7 +10,7 @@ We used 1 NVIDIA A40 GPU with 45GB to run this model.
 
 1. Clone the GitHub repo
 
-``git clone https://github.com/THUDM/CogVLM2``
+``git clone https://github.com/THUDM/CogVLM2.git``
 
 2. Go to the ``CogVLM2`` directory
    
