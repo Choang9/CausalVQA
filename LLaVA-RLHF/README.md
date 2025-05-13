@@ -45,4 +45,4 @@ We used 1 NVIDIA A40 GPU with 45GB to run this model.
 
 ``python llava_rlhf_13b_baseline_causal_vqa.py``
 
-This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and LLaVA-RLHF's response to these questions. There will be two CSV files if you run both experiments A and B.
+This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and LLaVA-RLHF's responses to these questions. There will be two CSV files if you run both experiments A and B.
