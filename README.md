@@ -2,57 +2,33 @@
 
 This repository is the official implementation of CausalVQA: A Benchmark Exposing Causal Illusions in Vision-Language Models. 
 
-## Requirements
+## Getting Started
 
-To install requirements:
+Determine which VLM you want to use. Go to that VLM's directory and follow the steps in the README file there to set up the environment and run the scripts. Most directories contain these:
+- yml file
+- Inference scripts (for baseline and fine-tuned models)
+- Fine-tuning script (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat)
+- Fine-tuned version of the model (only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen-VL-Chat)
 
-```setup
-pip install -r requirements.txt
-```
+## Fine-tuning
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+Use the fine-tuning script in each VLM's directory to do fine-tuning. More information can be found in the README file of each VLM's own directory.
 
-## Training
-
-To train the model(s) in the paper, run this command:
-
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+Minimum configuration: We used 4 NVIDIA A40 GPUs with 45GB each to fine-tune these models.
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
+Use the evaluation scripts in the Evaluation directory. More information can be found in the README file of this directory.
 
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
+## Acknowledgment
 
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
-
-## Results
-
-Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
+Our research used these wonderful resources:
+- [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)
+- [CogVLM2](https://github.com/THUDM/CogVLM2)
+- [InternVL2](https://github.com/OpenGVLab/InternVL)
+- [LLaVA-CoT](https://github.com/PKU-YuanGroup/LLaVA-CoT)
+- [LLaVA-RLHF](https://github.com/llava-rlhf/LLaVA-RLHF)
+- [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)
+- [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
+- [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl)
+- [Qwen-VL-Chat](https://github.com/QwenLM/Qwen-VL)
