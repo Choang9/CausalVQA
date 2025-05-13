@@ -30,6 +30,7 @@ Our research used these wonderful resources:
 - [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)
 - [CogVLM2](https://github.com/THUDM/CogVLM2)
 - [InternVL2](https://github.com/OpenGVLab/InternVL)
+- [Kaggle](https://www.kaggle.com/)
 - [LLaVA-CoT](https://github.com/PKU-YuanGroup/LLaVA-CoT)
 - [LLaVA-RLHF](https://github.com/llava-rlhf/LLaVA-RLHF)
 - [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)
