@@ -15,6 +15,7 @@ We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
 ``cd InternVL2``
 
 3. Download the ``internvl2.yml`` file and move it to the ``InternVL2`` directory
+
 4. Create and activate the environment
 
 ``conda env create -f internvl2.yml``
