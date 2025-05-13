@@ -44,11 +44,12 @@ This will then create a CSV file that contains the image file paths, the types o
 
 2. Download the ``llava_cot_finetune.py`` script and move it to ``LLaVA_CoT``
 
-3. Open the ``llava_cot_finetune.py`` and modify the code under 3 TODOs in this script
+3. Open the ``llava_cot_finetune.py`` and modify the code under 4 TODOs in this script
 
 - Line 34: Replace with actual path to your train/metadata.csv file (downloaded from our dataset)
-- Line 92: Replace with your Hugging Face user access token you created in Step 1
-- Lines 99 and 102: Replace with your Hugging Face fine-tuned model (you can name them like yourusername/yourmodel)
+- Line 39: Replace with actual path to your train/images directory (downloaded from our dataset)
+- Line 96: Replace with your Hugging Face user access token you created in Step 1
+- Lines 103 and 106: Replace with your Hugging Face fine-tuned model (you can name them like yourusername/yourmodel)
 
 4. Save the code, go to ``LLaVA_CoT`` and run the code there
 
