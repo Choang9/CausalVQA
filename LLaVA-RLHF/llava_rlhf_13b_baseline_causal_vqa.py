@@ -40,9 +40,9 @@ model = PeftModel.from_pretrained(
 EXPERIMENT = "A"
 
 if EXPERIMENT == "A":
-    file_name = "cogvlm2_baseline_expA.csv"
+    file_name = "llava_rlhf_13b_baseline_expA.csv"
 else:
-    file_name = "cogvlm2_baseline_expB.csv"
+    file_name = "llava_rlhf_13b_baseline_expB.csv"
 
 open(file_name, 'w').close()
 file = open(file_name, 'a')
