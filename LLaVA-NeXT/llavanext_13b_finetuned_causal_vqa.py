@@ -11,7 +11,7 @@ quantization_config = BitsAndBytesConfig(
 )
 # TODO: Replace with the path to your finetuned model's checkpoint
 model = LlavaNextForConditionalGeneration.from_pretrained(
-    "/path/to/LLaVA-NeXT/llava/checkpoints/finetuned_llavanext_13b",
+    "/path/to/finetuned_llavanext_13b",
     torch_dtype=torch.float16,
     quantization_config=quantization_config,
 )
