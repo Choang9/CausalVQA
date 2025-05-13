@@ -35,12 +35,16 @@ input_csv = 'path/to/train/metadata.csv'
 df = pd.read_csv(input_csv)
 
 def convert_to_conversation(index, row):
+    # TODO: Replace with actual path to your train/images directory here
+    path_to_train_images = "path/to/train/images"
+    image_path = path_to_train_images + row['file_name']
+    
     conversation = [
         {
             "role": "user",
             "content": [
                 {"type": "text", "text": row["question"]},
-                {"type": "image", "image": Image.open(row['file_name']).convert('RGB')},
+                {"type": "image", "image": Image.open(image_path).convert('RGB')},
             ],
         },
         {
