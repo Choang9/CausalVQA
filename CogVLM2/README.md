@@ -2,6 +2,10 @@
 
 Follow the following steps to set up the enviromment and run the inference script for CogVLM2. 
 
+## Minimum configuration
+
+We used 1 NVIDIA A40 GPU with 45GB to run this model.
+
 ## Getting Started
 
 1. Clone the GitHub repo
@@ -34,7 +38,3 @@ Follow the following steps to set up the enviromment and run the inference scrip
 ``python cogvlm2_baseline_causal_vqa.py``
 
 This will then create a CSV file that contains the image file paths, the types of questions (Association, Intervention, and Counterfactual), the questions, and CogVLM2's response to these questions. There will be two CSV files if you run both experiments A and B.
-
-## Minimum configuration
-
-We used 1 NVIDIA A40 GPU with 45GB to run this model.
