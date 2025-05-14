@@ -42,7 +42,7 @@ This will then create a CSV file that contains the image file paths, the types o
 
 ## Fine-tuning
 
-1. Download the ``llavanext_13b_finetune.py`` script and move it to ``LLaVA-NeXT``
+1. Download the ``llavanext_13b_finetune.py`` script and the ``llavanext_13b_metadata.json`` file and move them to ``LLaVA-NeXT``
 
 2. Open ``llavanext_13b_finetune.py`` and modify the code under 2 TODOs in this script
 
