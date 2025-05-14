@@ -4,7 +4,7 @@ Follow the following steps to set up the enviromment and run the inference scrip
 
 ## Minimum configuration
 
-We used 2 NVIDIA A40 GPUs with 45GB each to run this model.
+We used 2 NVIDIA A40 GPUs with 48GB each to run this model.
 
 ## Getting Started
 
