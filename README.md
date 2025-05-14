@@ -21,7 +21,7 @@ _Only for these 5 models: LLaVA-CoT, LLaVA-NeXT, MiniGPT-4, mPLUG-Owl2, and Qwen
 
 Use the fine-tuning script in each VLM's directory to do fine-tuning. More information can be found in the README file of each VLM's own directory.
 
-Minimum configuration: We used at most 2 NVIDIA A40 GPUs with 45GB each to fine-tune each of these models.
+Minimum configuration: We used at most 2 NVIDIA A40 GPUs with 48GB each to fine-tune each of these models.
 
 ## Evaluation
 
