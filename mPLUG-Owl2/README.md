@@ -46,7 +46,7 @@ This will then create a CSV file that contains the image file paths, the types o
 
 2. Open ``mplugowl2_finetune.py`` and modify the code under 2 TODOs in this script
 
-- Line 5: Replace with the path to the file ``mplugowl2_metadata.json``.
+- Line 5: Replace with the path to the file ``mplugowl2_metadata.json``
 - Line 21: Replace with actual path to your train/images directory (downloaded from our dataset)
 
 3. Save the code, go to ``mPLUG-Owl/mPLUG-Owl2`` and run the code there
