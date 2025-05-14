@@ -6,6 +6,8 @@ This repository is the official implementation of CausalVQA: A Benchmark Exposin
 
 Download our CausalVQA dataset [here](https://www.kaggle.com/datasets/choang19/causalvqa).
 
+We used Conda to run the models. Follow [this guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html) if you do not have Conda installed.
+
 Determine which VLM you want to experiment with. Go to that VLM's directory and follow the steps in the README file there to set up the environment and run the scripts. Most directories contain these:
 - A README file
 - A yml file
