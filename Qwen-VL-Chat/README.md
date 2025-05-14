@@ -63,7 +63,7 @@ This will create ``qwenvlchat_metadata.json``, which can be used for fine-tuning
 
 ``python qwenvlchat_finetune.py``
 
-This will then create a model checkpoint in ``Qwen-VL/checkpoints/finetuned_qwenvlchat``. You can then use it to do inference shown in the next section.
+This will then create a model checkpoint in ``Qwen-VL/finetune/checkpoints/finetuned_qwenvlchat``. You can then use it to do inference shown in the next section.
 
 Alternatively, if you want to skip the fine-tuning part, you are welcome to use our fine-tuned model checkpoint [here](https://drive.google.com/drive/folders/1VZVwCqkZ2GndYxjyZCnVta_ZOfLXldA5?usp=sharing).
 
