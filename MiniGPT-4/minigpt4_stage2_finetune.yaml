@@ -5,7 +5,7 @@ model:
   end_sym: "###"
   prompt_path: "prompts/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: 'path/to/pretrained_minigpt4.pth' # TODO: Replace with the path to this file
+  ckpt: 'path/to/pretrained_minigpt4.pth' # TODO: Replace with the path to this pre-trained checkpoint
 
 datasets:
   multitask_conversation:
