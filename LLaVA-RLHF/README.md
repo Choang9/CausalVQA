@@ -34,7 +34,7 @@ We used 1 NVIDIA A40 GPU with 45GB to run this model.
 
 1. Download the ``llava_rlhf_13b_baseline_causal_vqa.py`` script and move it to ``LLaVA``
 
-2. Open the ``llava_rlhf_13b_baseline_causal_vqa.py`` and modify the code under 4 TODOs in this script
+2. Open ``llava_rlhf_13b_baseline_causal_vqa.py`` and modify the code under 4 TODOs in this script
 
 - Lines 21 and 22: Replace model_path and lora_path with the path to your sft_model and rlhf_lora_adapter_model directories
 - Line 40: Determine whether you are running Experiment A or Experiment B
