@@ -29,6 +29,13 @@ Use the evaluation scripts in the Evaluation directory. We used Claude 3.5 Sonne
 
 Warning: This requires **paid subscriptions** to use the APIs.
 
+## Evaluation Protocols
+
+We employed two extinct experimental protocols to evaluate the VLMs:
+
+- Experiment A (Text-Only Probe): VLMs were instructed to provide only the text responses to the questions.
+- Experiment B (Graph-Text Probe): VLMs were instructed to provide light-weight causal graphs (e.g A -> B -> C) along with the text responses to the questions.
+
 ## Acknowledgment
 
 Our research used these wonderful resources:
