@@ -10,7 +10,7 @@ quantization_config = BitsAndBytesConfig(
     load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.float16
 )
 # TODO: Replace with the path to your finetuned model's checkpoint
-# Or you can use our finetuned model provided in this directory
+# Or you can use our finetuned model's checkpoint provided in this directory
 model = LlavaNextForConditionalGeneration.from_pretrained(
     "/path/to/finetuned_llavanext_13b",
     torch_dtype=torch.float16,
