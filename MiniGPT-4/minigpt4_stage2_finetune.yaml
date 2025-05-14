@@ -1,0 +1,46 @@
+model:
+  arch: minigpt4
+  model_type: pretrain_vicuna0
+  max_txt_len: 256
+  end_sym: "###"
+  prompt_path: "prompts/alignment.txt"
+  prompt_template: '###Human: {} ###Assistant: '
+  ckpt: 'path/to/pretrained_minigpt4.pth' # TODO: Replace with the path to this file
+
+datasets:
+  multitask_conversation:
+    batch_size: 4
+    vis_processor:
+      train:
+        name: "blip2_image_train"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+    sample_ratio: 0.8
+
+run:
+  task: image_text_pretrain
+  # optimizer
+  lr_sched: linear_warmup_cosine_lr
+  init_lr: 5e-5
+  min_lr: 5e-6
+  warmup_lr: 1e-6
+  warmup_steps: 100
+  weight_decay: 0.02
+  max_norm: 1.0  # Added gradient clipping
+  max_epoch: 3
+  iters_per_epoch: 2000
+  num_workers: 4
+  seed: 42
+  output_dir: "output/finetuned_minigpt4"
+  amp: True
+  resume_ckpt_path: null
+  evaluate: False  # Enable evaluation
+  train_splits: ["train"]
+  device: "cuda"
+  world_size: 1
+  dist_url: "env://"
+  distributed: True
+  wandb_log: True
+  job_name: minigpt4_finetune
