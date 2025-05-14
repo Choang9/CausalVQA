@@ -9,9 +9,9 @@ from peft import AutoPeftModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
 
 # TODO: Replace with the path to your finetuned model's checkpoint
-# Or you can use our finetuned model provided in this directory
+# Or you can use our finetuned model's checkpoint provided in this directory
 model = AutoPeftModelForCausalLM.from_pretrained(
-    "/path/to/finetuned_qwenvlchat", # path to the output directory
+    "/path/to/finetuned_qwenvlchat", 
     device_map="auto",
     trust_remote_code=True
 ).eval()
