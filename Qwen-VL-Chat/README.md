@@ -4,7 +4,7 @@ Follow the following steps to set up the enviromment and run the inference and f
 
 ## Minimum configuration
 
-We used 1 NVIDIA A40 GPU with 45GB to run and fine-tune this model.
+We used 1 NVIDIA A40 GPU with 48GB to run and fine-tune this model.
 
 ## Getting Started
 
