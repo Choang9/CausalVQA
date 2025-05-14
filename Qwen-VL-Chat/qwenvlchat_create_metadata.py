@@ -14,7 +14,10 @@ image_counts = defaultdict(int)
 with open(input_csv, newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
-        image_path = row['file_name']
+        # TODO: Replace with actual path to your train/images directory here
+        path_to_train_images = "path/to/train/images"
+        image_path = path_to_train_images + row['file_name']
+        
         question = row["question"]
         image_name = os.path.basename(image_path)
         base_id = os.path.splitext(image_name)[0]
