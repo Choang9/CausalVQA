@@ -42,7 +42,7 @@ This will then create a CSV file that contains the image file paths, the types o
 
 ## Fine-tuning
 
-1. Download the ``mplugowl2_finetune.py`` script and move it to ``mPLUG-Owl/mPLUG-Owl2``
+1. Download the ``mplugowl2_finetune.py`` script and the ``mplugowl2_metadata.json`` file and move them to ``mPLUG-Owl/mPLUG-Owl2``
 
 2. Open ``mplugowl2_finetune.py`` and modify the code under 2 TODOs in this script
 
