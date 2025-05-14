@@ -1,0 +1,7 @@
+datasets:
+  multitask_conversation:
+    data_type: images
+    build_info:
+    
+      image_path: path/to/train/images # TODO: Replace with actual path to your train/images directory here
+      ann_path: /path/to/minigpt4_metadata.json # TODO: Replace with the path to this file
