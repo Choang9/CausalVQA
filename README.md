@@ -31,6 +31,7 @@ Warning: This requires **paid subscriptions** to use the APIs.
 
 Our research used these wonderful resources:
 - [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)
+- [COCO Dataset](https://cocodataset.org/#home)
 - [CogVLM2](https://github.com/THUDM/CogVLM2)
 - [GPT-4o](https://openai.com/index/hello-gpt-4o/)
 - [InternVL2](https://github.com/OpenGVLab/InternVL)
