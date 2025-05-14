@@ -57,7 +57,7 @@ This will create ``qwenvlchat_metadata.json``, which can be used for fine-tuning
 
 2. Open ``qwenvlchat_finetune.py`` and modify the code under 1 TODO in this script
 
-- Line 10: Replace with the path to the file ``qwenvlchat_metadata.json`` created in the previous section.
+- Line 10: Replace with the path to the file ``qwenvlchat_metadata.json`` created in the previous section
 
 3. Save the code, go to ``Qwen-VL/finetune`` and run the code there
 
