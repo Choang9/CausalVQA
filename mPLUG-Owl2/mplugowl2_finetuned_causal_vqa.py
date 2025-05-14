@@ -12,7 +12,7 @@ from mplug_owl2.mm_utils import process_images, tokenizer_image_token, get_model
 base_model_path = 'MAGAer13/mplug-owl2-llama2-7b'
 
 # TODO: Replace with the path to your finetuned model's checkpoint
-# Or you can use our finetuned model provided in this directory
+# Or you can use our finetuned model's checkpoint provided in this directory
 lora_checkpoint_path = '/path/to/finetuned_mplugowl2/'
 
 model_name = get_model_name_from_path(base_model_path)
