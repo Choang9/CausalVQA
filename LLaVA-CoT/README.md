@@ -26,7 +26,7 @@ We used 1 NVIDIA A40 GPU with 45GB to run and fine-tune this model.
 
 1. Download the ``llava_cot_baseline_causal_vqa.py`` script and move it to ``LLaVA_CoT``
 
-2. Open the ``llava_cot_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
+2. Open ``llava_cot_baseline_causal_vqa.py`` and modify the code under 3 TODOs in this script
 
 - Line 19: Determine whether you are running Experiment A or Experiment B
 - Line 32: Replace with actual path to your test/metadata.csv file (downloaded from our dataset)
@@ -44,7 +44,7 @@ This will then create a CSV file that contains the image file paths, the types o
 
 2. Download the ``llava_cot_finetune.py`` script and move it to ``LLaVA_CoT``
 
-3. Open the ``llava_cot_finetune.py`` and modify the code under 4 TODOs in this script
+3. Open ``llava_cot_finetune.py`` and modify the code under 4 TODOs in this script
 
 - Line 34: Replace with actual path to your train/metadata.csv file (downloaded from our dataset)
 - Line 39: Replace with actual path to your train/images directory (downloaded from our dataset)
@@ -63,7 +63,7 @@ Alternatively, if you want to skip the fine-tuning part, you are welcome to use 
 
 1. Download the ``llava_cot_finetuned_causal_vqa.py`` script and move it to ``LLaVA_CoT``
 
-2. Open the ``llava_cot_finetuned_causal_vqa.py`` and modify the code under 4 TODOs in this script
+2. Open ``llava_cot_finetuned_causal_vqa.py`` and modify the code under 4 TODOs in this script
 
 - Line 15: Replace with your/our Hugging Face finetuned model's name (yourusername/yourmodel or cxhoang/ft-llava-cot-causal-qa)
 - Line 20: Determine whether you are running Experiment A or Experiment B
