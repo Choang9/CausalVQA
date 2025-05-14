@@ -40,7 +40,7 @@ This will then create a CSV file that contains the image file paths, the types o
 
 ## Fine-tuning
 
-1. Log in to/Create your Hugging Face account and create a [user access token](https://huggingface.co/docs/hub/en/security-tokens). 
+1. Log in to/Create your Hugging Face account and create a [user access token](https://huggingface.co/docs/hub/en/security-tokens)
 
 2. Download the ``llava_cot_finetune.py`` script and move it to ``LLaVA_CoT``
 
